@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gitops-demo
+  name: redhat-pine-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: gitops-demo
+      app: redhat-pine-app
   template:
     metadata:
       labels:
-        app: gitops-demo
+        app: redhat-pine-app
     spec:
       containers:
         - name: app
@@ -21,10 +21,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: gitops-demo
+  name: redhat-pine-app
 spec:
   selector:
-    app: gitops-demo
+    app: redhat-pine-app
   ports:
     - protocol: TCP
       port: 80
