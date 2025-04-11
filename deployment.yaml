@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitops-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gitops-demo
+  template:
+    metadata:
+      labels:
+        app: gitops-demo
+    spec:
+      containers:
+        - name: app
+          image: image-registry.openshift-image-registry.svc:5000/gitops-lab/gitops-demo:latest
+          ports:
+            - containerPort: 8080
