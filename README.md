@@ -1,1 +1,1 @@
-# gitops-demo 1.01
+# gitops-demo 1.02
