@@ -1,1 +1,1 @@
-# gitops-demo 1.0232w
+# gitops-demo 1.0
