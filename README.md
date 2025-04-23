@@ -1,1 +1,1 @@
-# gitops-demo 2.0.2
+# Pipeline CI/CD - gitops-demo 2.0.1
