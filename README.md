@@ -1,1 +1,1 @@
-# Pipeline CI/CD - gitops-demo 2.0.1
+# Pipeline CI/CD -full pipeliner 2.0.1
