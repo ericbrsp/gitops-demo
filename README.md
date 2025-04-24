@@ -1,3 +1,1 @@
-ddd# Pipeline CI/CD - Full Pipeline111dddeeedddddddeeee
-dddd
-wwww
+ddd# Pipeline CI/CD - Full Pipeline 22222
